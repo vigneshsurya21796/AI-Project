@@ -43,20 +43,20 @@ function Navbar() {
           <div className="project_Navbar_container_Responsive slide-left">
             <div className="project_Navbar_container_links">
               <p>
-                <a href="#home">Home</a>
+                <a href="#home" onClick={() => settoggle(false)} >Home</a>
               </p>
               <p>
-                <a href="#About">About</a>
+                <a href="#About" onClick={() => settoggle(false)}>About</a>
               </p>
 
               <p>
-                <a href="#Features">Features</a>
+                <a href="#Features" onClick={() => settoggle(false)}>Features</a>
               </p>
               <p>
-                <a href="#Testimonials">Testimonials</a>
+                <a href="#Testimonials" onClick={() => settoggle(false)}>Testimonials</a>
               </p>
               <p>
-                <a href="#contact">contact</a>
+                <a href="#contact" onClick={() => settoggle(false)}>contact</a>
               </p>
             </div>
             <div className="Project_Navbar_links_signin">
