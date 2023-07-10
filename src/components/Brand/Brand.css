@@ -1,0 +1,78 @@
+.Brand_flex {
+  /* display: flex;
+  flex-direction: column; */
+
+  /* justify-content: center;
+  align-items: center; */
+}
+.Brand_flex_image {
+  /* margin-top: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+  align-items: center; */
+  /* background-color: yellow; */
+}
+
+.Brand_Text {
+  margin-top: 55px;
+  text-align: center;
+  font-family: var(--font-family-1);
+  font-weight: 900;
+  color: gray;
+}
+.Brand-logos {
+  overflow: hidden;
+  padding: 60px 0;
+  white-space: nowrap;
+  position: relative;
+}
+.Brand-logos::before{
+  position: absolute;
+  left: 0;
+  top: 0;
+  content: "";
+  width: 250px;
+  height: 100%;
+  background: linear-gradient(to left,rgba(255,255,255,0),white);
+  z-index: 2;
+}
+.Brand-logos::after{
+  position: absolute;
+  right: 0;
+  top: 0;
+  content: "";
+  width: 250px;
+  height: 100%;
+  background: linear-gradient(to right,rgba(255,255,255,0),white);
+  z-index: 2;
+}
+.Brand-logos:hover .Brand_flex_image {
+  animation-play-state: paused;
+}
+.Brand_flex_image {
+  display: inline-block;
+
+  animation: slide 10s infinite linear;
+}
+.Brand_flex_image img {
+  height: 50px;
+  margin: 0 35px;
+}
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .Brand_flex_image img {
+    height: 25px;
+    margin: 0 35px;
+  }
+}
+

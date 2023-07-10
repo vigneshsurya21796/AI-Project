@@ -1,0 +1,34 @@
+.possibility-image img {
+  width: 95px;
+  height: 95px;
+  border-radius: 50%;
+}
+.possibility {
+  margin-top: 100px;
+  display: flex;
+  height: 20rem;
+  margin: auto;
+  width: 100%;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 55px;
+}
+.possibility-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.possibility-text {
+  font-family: var(--font-family-2);
+}
+.possibility_texts{
+    color: blue;
+    font-weight: 500;
+    font-family: var(--font-family-2);
+}
+.possibility_texts ~ div{
+    font-family: var(--font-family-3);
+}
