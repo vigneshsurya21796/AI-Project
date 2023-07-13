@@ -7,7 +7,7 @@ function Header() {
     <div className="Header_flex_container section__padding" id="home">
       <div className="Header_content">
         <h1 className="Header_heading ">
-          Let's Build Something amazing with GPT-3 OpenAI
+          Let's Build Something amazing with CHATGPT OpenAI
         </h1>
         {/* <p>
           Yet bed any for travelling assistance indulgence unpleasing. Not
