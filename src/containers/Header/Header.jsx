@@ -15,7 +15,12 @@ function Header() {
           alteration boisterous the attachment. Party we years to order allow
           asked of.
         </p>  */}
-       <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, numquam explicabo facere esse sunt sapiente omnis beatae. Doloremque fugiat quos dolor nihil, at dignissimos, dicta similique labore iste quas cupiditate?</div>
+        <div>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum,
+          numquam explicabo facere esse sunt sapiente omnis beatae. Doloremque
+          fugiat quos dolor nihil, at dignissimos, dicta similique labore iste
+          quas cupiditate?
+        </div>
         <button className="learnmore">
           Learn More
           <span>
